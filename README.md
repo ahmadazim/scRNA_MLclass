@@ -1,2 +1,6 @@
-# Implementing a machine learning approach to scRNA-seq classification
-A machine learning model was developed to classify cell types based solely on plastid gene expression profiles. This work is part of a larger research study: Using Single-cell RNA Sequencing Data to Study Plastid Differentiation Dynamics with Nucleus-Encoded Gene Expression in *Arabidopsis thaliana*.
+# ML approach for classifying cell types based solely on organelle gene expression
+Little is known on how cell differentiation dynamics are impacted by other biological systems, such as organelle development. The plant provides an interesting context to study this impact given its diverse array of cell and plastid types. Plastids are organelles that are unique to plant cells, synthesizing and storing critical chemical compounds and pigments. All plastids develop from undifferentiated proplastids in meristematic tissue; however, it is unknown how plastid development progresses relative to cell development, namely the extent to which plastid state is coupled with cell state. This coupling was explored via single-cell RNA sequencing of the root of *Arabidopsis thaliana*. 
+
+A machine learning model was developed to classify cell types based solely on plastid gene expression profiles. The high accuracy of this model (**>96%**) suggests that plastid state is in fact coupled with cell state. Largely, we offer a novel computational pipeline to study cell organelles at the single-cell level which opens the door for a wide variety of applications beyond plants. 
+
+This work is part of a larger research study: Using Single-cell RNA Sequencing Data to Study Plastid Differentiation Dynamics with Nucleus-Encoded Gene Expression in *Arabidopsis thaliana*.
